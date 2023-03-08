@@ -16,12 +16,8 @@ class BottomMenuBar extends StatefulWidget {
 class _BottomMenuBarState extends State<BottomMenuBar> {
   @override
   Widget build(BuildContext context) {
-     return Scaffold(
-      bottomNavigationBar: Container(
-        height: 100,
-        decoration: BoxDecoration(
-          color: Colors.white,
-        ),
+    return Container(
+      margin: const EdgeInsets.fromLTRB(0, 15, 0, 15),
       child: Row(
         mainAxisAlignment: MainAxisAlignment.spaceEvenly,
           children: [
@@ -95,7 +91,6 @@ class _BottomMenuBarState extends State<BottomMenuBar> {
               ),
             ),
           ],
-        ),
       ),
     );
   }

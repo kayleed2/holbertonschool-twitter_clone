@@ -21,8 +21,8 @@ class _HomeScreenState extends State<HomeScreen> {
         backgroundColor: Colors.blue,
 
       ),
-      // drawer: const SideBarMenu(),
-      // bottomNavigationBar: const BottomMenuBar(),
+      drawer: const SideBarMenu(),
+      bottomNavigationBar: const BottomMenuBar(),
       body: const PostWidget(
         username: "theRealSanta",
         displayName: 'Santa Clause',

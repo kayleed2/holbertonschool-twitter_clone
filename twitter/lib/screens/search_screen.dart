@@ -28,6 +28,7 @@ class _SearchScreenState extends State<SearchScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       drawer: SideBarMenu(),
+      bottomNavigationBar: const BottomMenuBar(),
       appBar: AppBar(
         title: TextField(
            controller: _searchController,

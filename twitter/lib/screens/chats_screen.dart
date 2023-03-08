@@ -5,6 +5,7 @@ import 'package:twitter/widgets/flat_button.dart';
 import 'package:twitter/screens/signup_screen.dart';
 import 'package:twitter/screens/forgot_password_screen.dart';
 import 'package:twitter/widgets/side_bar_menu.dart';
+import 'package:twitter/widgets/bar_menu.dart';
 import 'dart:io';
 
 class ChatsScreen extends StatefulWidget {
@@ -20,6 +21,7 @@ class _ChatsScreenState extends State<ChatsScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       drawer: SideBarMenu(),
+      bottomNavigationBar: const BottomMenuBar(),
       appBar: AppBar(
         title: Text('Chats'),
       ),
